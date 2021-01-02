@@ -1,0 +1,32 @@
+.editor-container {
+  width: 100vw;
+  height: 100vh;
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button, h5 {
+      margin: 10px;
+    }
+  }
+  h1, h5 {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .editable {
+    min-width: 300px;
+    border: 1px solid white;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    outline: none;
+    overflow: auto;
+  }
+}
